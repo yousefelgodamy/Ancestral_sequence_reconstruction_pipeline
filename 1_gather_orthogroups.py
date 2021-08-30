@@ -20,7 +20,6 @@ n2_orthogroups = []
 final_orthogroups = []
 ortho_groups = []
 
-# MUST EDIT BELOW PLEASE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 for row in df_n1.itertuples():
     if row[2] > 0:
         n1_orthogroups.append(row.Orthogroup)
